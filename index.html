@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>mar rivero carretero</title>
+    
+    <style>
+        /* Base typography and colors */
+        body {
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 1.25rem;
+            color: rgba(0, 0, 0, 0.85);
+            background-color: #ffffff;
+            line-height: 1.45;
+            margin: 0;
+            padding: 2rem; /* Replaces the complex mobile offset padding */
+        }
+
+        /* Link styling */
+        a {
+            color: rgba(0, 0, 0, 0.85);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            opacity: 0.7;
+        }
+
+        /* Layout for the menu columns */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            align-items: flex-start;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+                font-size: 1.1rem;
+            }
+            .menu-grid {
+                grid-template-columns: 1fr; /* Stacks columns on mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu-grid">
+        <div class="column-unit">
+            <span style="line-height: 1.5;">
+                <a href="home-page">mar rivero carretero</a>
+            </span>
+            <br />
+            <a href="crowdfunding"></a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="about">about</a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="selected-works">selected works</a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="contact">contact</a>
+        </div>
+    </nav>
+
+    <main>
+    </main>
+
+</body>
+</html>

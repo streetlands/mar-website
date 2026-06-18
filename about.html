@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>about — mar rivero carretero</title>
+    
+    <style>
+        /* Base typography and colors */
+        body {
+            font-family: "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 1.25rem;
+            color: rgba(0, 0, 0, 0.85);
+            background-color: #ffffff;
+            line-height: 1.45;
+            margin: 0;
+            padding: 2rem;
+        }
+
+        /* Link styling */
+        a {
+            color: rgba(0, 0, 0, 0.85);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            opacity: 0.7;
+        }
+
+        .active {
+            text-decoration: underline; /* Highlights the current page in the menu */
+        }
+
+        /* Layout for the menu columns */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            align-items: flex-start;
+            margin-bottom: 4rem; /* Adds spacing below the menu instead of the line */
+        }
+
+        /* Bio specific styling */
+        .page-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: rgba(242, 6, 6, 0.85);
+            font-weight: normal;
+            margin-bottom: 3rem;
+        }
+
+        .bio-content {
+            max-width: 800px;
+            margin: 0 auto; /* Centers the bio text */
+            text-align: left;
+        }
+
+        .bio-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .bio-image-container {
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .bio-image-container img {
+            max-width: 69.1%; /* Retains the scale from your original code */
+            height: auto;
+        }
+
+        .caption {
+            font-size: 1.1rem;
+            color: rgba(0, 0, 0, 0.4);
+            margin-top: 1rem;
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+                font-size: 1.1rem;
+            }
+            .menu-grid {
+                grid-template-columns: 1fr;
+            }
+            .bio-image-container img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu-grid">
+        <div class="column-unit">
+            <span style="line-height: 1.5;">
+                <a href="home-page">mar rivero carretero</a>
+            </span>
+            <br />
+            <a href="crowdfunding"></a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="about" class="active">about</a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="selected-works"> selected works</a>
+        </div>
+        
+        <div class="column-unit">
+            <a href="contact">contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1 class="page-title">about</h1>
+        
+        <div class="bio-content">
+            <p>mar rivero carretero is a bebo </p>
+            <p> bebi bebo </p>
+            
+            <div class="bio-image-container">
+                <figure>
+                    <img src="Bebo.jpeg" alt="bebo of bebi">
+                    <figcaption class="caption">that's bebo (on the right is not a bebo)</figcaption>
+                </figure>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
